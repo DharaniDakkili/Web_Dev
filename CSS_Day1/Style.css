@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    color: blue;
+    font-weight: lighter;
+    text-decoration:underline;
+
+}
+h1{
+    color: rgb(26, 5, 252);
+}
+.text-align{
+    text-align: center;
+}
+.card{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 50px auto;
+    width:500px;
+   
+
+}
+.button{
+     border: none;
+     padding: 10px 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color:black;
+     font-size: medium;
+     border-radius:10px ;
+     background-color:lightgreen;
+     
+    
+}
+input{
+    border: 1px solid blue;
+    width:100%;
+    border-radius: 10px;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    font-size: 16px;
+}

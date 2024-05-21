@@ -1,0 +1,93 @@
+.post{
+    border: 1px solid lightgray;
+    width: 500px;
+    border-radius: 14px;
+    margin: 12px auto;
+    padding: 10px;
+
+    
+}
+.post-img{
+    border-radius: 14px;
+    width: 100%;
+
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+p{
+    color: lightgray;
+}
+
+.icons{
+display: flex;
+justify-content: space-between;
+margin-top: 8px;
+}
+.sub-icons{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-img{
+    margin-top: 8px;
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+    
+}
+.name{
+    margin-left: 8px;
+    text-align: left;
+    line-height: 0;
+}
+.likes{
+    color: black;
+    margin-top: 8px;
+}
+.logo{
+    color: blue;
+    font-size: 24px;
+    text-decoration: none;
+    /* margin: 10px auto; */
+    font-weight: bold;
+    
+    
+}
+.navbar{
+    width: 900px;
+    margin:12px auto;
+    padding: 10px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    
+
+
+}
+.link{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.btn{
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+}
+.sidebar{
+    width: 300px;
+    padding: 10px;
+    margin-left: 50px;
+    
+    
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+}

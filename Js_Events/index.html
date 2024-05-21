@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="card" onclick="test()" onmouseover="mouseOver()" onmouseout="mouseOut()">
+            <h1 >Welcome to JS Events</h1>
+        </div>
+        <div class="alert" id="alertDiv"> <strong>Alert!</strong> Your mouse  is on container</div>
+
+        <div class="container" >
+            <!-- <h1 >Register for free <span id="headName"></span>!</h1> -->
+           <h1 >Register for free !</h1>
+            <input type="text" placeholder="Enter your name" id="name" onchange="submitBtn()" onkeyup="submitBtn()">
+            <button class="btn" onclick="submitBtn()" >Submit</button>
+            <p id="userInput"></p>
+        </div> 
+
+        <div class="cardMain">
+            <button class="btn" id="magic" onclick="magic()">Click me</button>
+            <button class="btn" id="stopMagic"  onclick="stopMagic()">Stop me</button>
+            <h1 id="title" >Click on the button to see the magic🥳🥳</h1>
+            
+        </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

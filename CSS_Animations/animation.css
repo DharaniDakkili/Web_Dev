@@ -1,0 +1,103 @@
+.card {
+  width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 14px;
+  /* position: relative;
+     */
+}
+.card-img {
+  width: 100%;
+  border-radius: 14px;
+}
+.content {
+  position: absolute;
+  top: 0;
+  margin: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(16, 16, 16);
+}
+.btn {
+  color: rgb(247, 247, 247);
+  border: none;
+  padding: 14px 44px;
+  border-radius: 14px;
+  background-color: rgb(163, 80, 80);
+  font-size: 16px;
+}
+.background {
+  background-image: url(luis-magallon-ouIs1S83HOA-unsplash.jpg);
+  width: 600px;
+  height: 500px;
+  border-radius: 14px;
+  overflow: scroll;
+}
+.card-main {
+  width: 600px;
+  margin: 20px auto;
+  border: none;
+}
+.content-new {
+  margin: 20px 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+p {
+  font-size: 16px;
+}
+/* animations */
+.demo{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    border: 1px solid gray;
+    border-radius: 50px;
+    animation-name: demo-animation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: calc(2);
+  animation-direction: reverse;
+  
+    
+ 
+    
+
+}
+@keyframes demo-animation{
+   
+    
+    20%{
+        margin-top: 500px;
+        background-color: rgb(106, 214, 44);
+    }
+    40%{
+        /* margin-left: 500px; */
+        margin-bottom: 0px;
+        margin-left: 500px;
+        background-color: rgb(255, 13, 62);
+    }
+   
+    60%{
+        margin-top: 0px;
+        margin-left: 500px;
+        background-color: rgb(255, 7, 222);
+        
+    }
+     
+    80%{
+        margin-top:500px;
+        background-color: blueviolet;
+    }
+     
+    100%{
+        
+        background-color: brown;
+        
+        margin-left: 900px;
+        
+    } 
+
+}

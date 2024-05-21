@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,200&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+h1::selection{
+    background-color: black;
+    color: white;
+}
+h1::first-letter{
+    color: blue;
+}
+/* h1{
+    background-color: lightgreen;
+} */
+h1::first-line{
+    color:brown;
+}
+p::before{
+content: 'Note:  ';
+}
+p::after{
+    content:'!!!!!';
+}
+li::marker{
+color:aqua;
+}
+
+ul li:first-child{
+    color: blue;
+}
+
+ul li:last-child{
+    color:rosybrown;
+}
+ul li::before{
+    content:'hello  ';
+}
+ul li:nth-child(even){
+    color:tomato;
+
+}
+
+.btn{
+    border-radius: 10px;
+    border: none;
+    margin:20px 10px;
+    padding: 10px;
+    background-color: aqua;
+    color: blue;
+    width:100px;
+}
+.btn:hover{
+    color: white;
+    border-radius: 50%;
+    background-color: black
+    
+    
+}
+input{
+    border-radius: 10px;
+    border: none;
+    margin:20px 10px;
+    padding: 10px;
+    background-color: aqua;
+    color: blue;
+    width:100px;
+}
+
+input:focus{
+    border-radius: 20px;
+    border: 1px solid red;
+}

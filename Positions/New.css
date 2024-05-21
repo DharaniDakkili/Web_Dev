@@ -1,0 +1,96 @@
+ .card{ 
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    width: 600px;
+    margin: 16px auto;
+    padding: 16px;
+   
+   
+}
+.card-img{
+    width: 100%;
+    border-radius: 16px;
+
+}
+.btn{
+    border: none;
+    background-color: tomato;
+    border-radius: 16px;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 24px;
+}
+.feed{
+
+    border-radius: 16px;
+    width: 600px;
+    margin: 16px auto;
+    padding: 16px;  
+    position: relative;
+}
+.feed-img{
+    width: 100%;
+    border-radius: 16px;
+    
+}
+.feed-content{
+    position:absolute;
+    top:0;
+    color: white;
+    margin: 12px;
+}
+.feed-btn{
+    border: none;
+    background-color: white;
+    border-radius: 16px;
+    padding: 10px 20px;
+}
+.tag{
+    border: none;
+    background-color: white;
+    border-radius: 16px;
+    padding: 5px 10px;
+    position:absolute;
+    top:0;
+    margin: 24px;
+}
+
+.reviews{
+    position: relative;
+}
+
+.likes{
+    border: none;
+    background-color: white;
+    border-radius: 16px;
+    padding: 5px 10px;
+    margin: 24px;
+    position:absolute;
+    bottom:0;
+    
+}
+.comment{
+    border: none;
+    background-color: white;
+    border-radius: 16px;
+    padding: 5px 10px;
+    margin:24px 130px;
+    position:absolute;
+    bottom:0; 
+}
+ .ad{
+    position:sticky;
+     bottom:0;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    width: 600px;
+    margin: 16px auto;
+    padding: 16px;
+
+ }
+ .ad-img{
+    width: 100%;
+    border-radius: 16px;
+ } 

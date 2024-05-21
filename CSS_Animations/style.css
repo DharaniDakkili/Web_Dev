@@ -1,0 +1,99 @@
+.card{
+    background-image: url(bailey-zindel-NRQV-hBF10M-unsplash.jpg);
+    height: 500px;
+    width: 800px;
+    background-size: cover;
+    border-radius: 12px;
+    
+
+}
+.container{
+    width:800px;
+    margin: 30px;
+    border: none;
+    
+    
+}
+.content{
+    padding: 50px;
+    text-align: center;
+    
+}
+
+p{
+    font-size: 24px;
+    color: black;
+    
+}
+h1{
+    color: tomato;
+}
+
+
+.btn{
+    border-radius: 12px;
+    margin: 32px 16px;
+    padding: 15px;
+    background-color: blueviolet;
+    border: none;
+    color:white;
+    cursor: pointer;
+}
+
+.hero{
+    animation-name:card;
+    animation-duration: 3sec;
+    animation-direction:reverse;
+    animation-fill-mode: forwards;
+    width:800px;
+    
+    
+
+}
+@keyframes card{
+    100%{
+        border-radius: 50%;
+        background-color: lightpink;
+       
+        border: 2px solid black;
+    }
+} 
+
+.hero{
+    animation-name:container;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: calc(5);
+}
+@keyframes container{
+    100%{
+        
+        border-radius: 50%;
+        margin-left: 900px;
+    }
+} 
+.demo{
+    animation-name: demo-animation;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+     animation-direction: reverse; 
+    height:100px;
+    width: 100px;
+    border-radius: 12px;
+    background-color: tomato;
+    animation-iteration-count:infinite;
+    
+     
+   animation-delay: 5s;
+
+
+}
+ @keyframes demo-animation{
+  100%{
+        background-color: blueviolet;
+        
+        border-radius: 50%;
+        
+
+    }
+} 

@@ -1,0 +1,46 @@
+body{
+    font-size: 16px;
+    color: gray;
+    
+}
+.container{
+    width: 500px;
+    margin:50px auto;
+    padding:20px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    align-items: center;
+    
+  }
+.btn{
+    margin-left:40%;
+    padding: 12px;
+    background-color: blue;
+    border: none;
+    color:white;
+    border-radius: 12px;
+    width: 100px;
+    cursor: pointer;
+   
+}
+input{
+    padding: 12px;
+ border-radius: 12px;
+   width: 470px;
+   box-sizing: border-box;
+   margin:12px;
+    
+}
+h3{
+    text-align: center;
+}
+.btn:hover{
+    animation-name: button;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes button{
+    100%{
+        margin-left: 10px ;
+    }
+}
