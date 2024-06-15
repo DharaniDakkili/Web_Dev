@@ -1,0 +1,134 @@
+
+.nav-link:hover{
+    border-bottom: 5px solid rgb(235, 113, 0) !important;
+}
+.hero{
+    background-image: url(../img/2492-SOHP-heroDefault-dktp.webp);
+    height: 620px;
+    background-size: cover;
+}
+
+.img-content{
+    color: white;
+    padding: 120px 0 0 180px;
+    
+    
+}
+.card{
+    width: 1000px;  
+    padding: 10px;
+    text-align: center;
+}
+/* .img-text{
+    width: 500px;
+} */
+.line-height{
+    line-height: 1.5;
+}
+.search-box{
+    padding: 10px 60px 60px 10px;
+    width: 720px;
+    border: 2px solid rgb(235, 113, 0) !important;
+
+    
+}
+
+.search-box:focus{
+    outline:none
+
+}
+.bg-color{
+    background-color: rgb(251, 250, 251);
+}
+.img-btn{
+ border-radius: 50%;
+ border: none;
+}
+.border-left{
+    border-left: 1px solid gray;
+}
+.small-img{
+    height: 50px;
+    
+}
+.experts{
+    align-items: center;
+}
+.image-container{
+    background-color: rgb(241, 228, 213);
+  
+}
+.btn-gray{
+background-color:rgb(48, 44, 65) !important;
+}
+.bg-color-new{
+ background-color: rgb(246, 245, 255);
+}
+
+.background-picture{
+    
+    position: relative;
+
+}
+.text-position{
+    position: absolute;
+    top: 0;
+    padding: 130px 280px 100px 280px;
+
+}
+ul,li{
+    list-style-type: none;
+}
+.font{
+    font-size: 12px;
+}
+.font-size{
+    font-size: 14px;
+
+}
+.sub-footer{
+    border-bottom: 1px solid rgb(202, 200, 209);
+    
+}
+.sub-footer-bg{
+    background-color:rgb(252, 252, 252); 
+}
+.imgs{
+    margin-left: 100px;
+}
+.footer-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.mobile-image{
+    background-image: url(../img/0818-SOHPUAE-HeroDefaultmWemobile.webp);
+}
+
+@media(max-width:586px){
+    .mobile-image{
+      display: block;
+
+    }
+    .hero-lg{
+        display: none;
+    }
+    .search-box{
+        
+            padding: 10px 60px 60px 10px;
+            width:200px;
+            border: 2px solid rgb(235, 113, 0) !important;
+        
+    }
+}
+@media(min-width:586px){
+    .mobile-image{
+      display: none;
+
+    }
+    .hero-lg{
+        display: block;
+    }
+}
