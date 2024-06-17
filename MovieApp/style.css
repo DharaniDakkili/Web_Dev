@@ -1,0 +1,131 @@
+body{
+    background-color: black;
+    font-size: 17px;
+}
+
+input{
+    width: 800px;
+    color: white;
+    padding: 15px;
+    border-radius: 12px 0 0 12px;
+    background-color: rgba(68, 65, 65, 0.345);
+    border:2px solid transparent;
+}
+/* .search-container{
+    margin:10px auto;
+    width: 800px;
+} */
+
+.btn{
+    background-color: rgb(233, 180, 66);
+    border-radius: 0 12px 12px 0; 
+    cursor: pointer;
+    color: black;
+}
+input:focus{
+    outline: none;
+    border-color:rgb(233, 180, 66); 
+}
+.content{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+    
+}
+.highlight{
+    background: #FFB76B;
+background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
+-webkit-background-clip:text;
+-webkit-text-fill-color: transparent;
+
+}
+p{
+    font-size: 16px;
+    color: rgb(219, 210, 210);
+    margin-top: 5px;
+}
+
+.loader {
+    border: 3px solid #f3f3f3; 
+    border-top: 3px solid #494840; 
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 500ms linear infinite;
+    margin-top: 190px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+.movie-container{
+    width:900px;
+    margin:40px auto;
+    margin-top: 100px;
+    
+
+}
+
+.error-container{
+    width:900px;
+    margin:40px auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: #FF7C00;
+
+}
+/* .movie-content{
+ margin-right: 20px;
+} */
+
+.movie-img-container{
+    position: relative;
+}
+.tag{
+    border-radius: 8px;
+    color: black;
+    padding: 5px 10px;
+    position:absolute;
+    display: inline-block;
+    margin: 10px;  
+}
+.ratings{
+    background-color: rgba(235, 227, 227, 0.871); 
+    position:absolute;
+    top:0;
+    left:0;
+    display: inline-block;
+}
+
+.genre{
+    background-color: #FFB76B;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.movie-img-container p{
+    font-size: 14px;
+}
+
+.d-none{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
