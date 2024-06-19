@@ -63,7 +63,7 @@ function register(){
     email:email.value
   }
   let emailCount=users.filter((user)=>{
-    return user.email=email.value;
+    return user.email==email.value;
   })
   if(emailCount.length==0){
     users.push(tempUser);
